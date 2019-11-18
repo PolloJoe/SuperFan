@@ -1,0 +1,94 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	display: flex;
+	background-color: black;
+}
+
+.ne-col {
+	height: 100%;
+	width: 25%; 
+	display: block;
+}
+
+.wide-col {
+	height: 100%;
+	width: 50%;
+	display: block;
+}
+
+.short-row {
+	height: calc(100%/4);
+	width: 100%;
+	display: block;
+	background-color: green;
+}
+
+.nename-row {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	background-color: pink;
+}
+	
+.ne-row {
+	height: 75%;
+	width: 100%;
+	display: flex;
+	background-color: red;
+}
+
+.img {
+	max-height:75%;
+	max-width:75%;
+}
+
+.nachopic {
+	content:url(images/na.png);
+}
+
+.esqueletopic {
+	content:url(images/na.png);
+}
+
+
+.center {
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (max-width: 600px){
+	body {
+		display: block;
+	}
+	
+	.ne-col {
+		height: 25%;
+		width: 100%; 
+	}
+
+	.wide-col {
+		height: 50%;
+		width: 100%;
+	}
+
+	.short-row {
+		height: calc(100%/4);
+		width: 100%;
+	}
+
+	.nename-row {
+		height: 25%;
+		width: 100%;
+	}
+	
+	.ne-row {
+		height: 75%;
+		width: 100%;
+	}
+}
+	
+	
+	
+	
